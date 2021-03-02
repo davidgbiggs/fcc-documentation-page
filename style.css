@@ -1,0 +1,11 @@
+body {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 1fr;
+  }
+}
